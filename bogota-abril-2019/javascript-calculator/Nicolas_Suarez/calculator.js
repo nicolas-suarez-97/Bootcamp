@@ -8,7 +8,7 @@ function operation(numb){
         op = "";
     }else{
         if(result.value=='0'){
-            if(numb=="+" || numb=="-" || numb=="/" || numb=="x" || fin==1){
+            if(numb=="+" || numb=="-" || numb=="/" || numb=="x" ){                
                 result.value='0';
             }else{
                 result.value=numb;            
