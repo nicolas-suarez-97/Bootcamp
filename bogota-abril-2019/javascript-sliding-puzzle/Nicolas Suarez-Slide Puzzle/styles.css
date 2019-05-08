@@ -35,4 +35,19 @@ body{
     height: 100px;
     width: 100px;
     border-style: none;
+    border-width: 0.5px;
+    border-color: gray;
+
+}
+
+.winner{
+    display: none;
+    align-items: center;
+    justify-content: center;
+    transform: translateY(-310px);     
+    background-color: white;
+    height: 200px;
+    width: 300px;
+    border-style: solid;
+    border-width: 3px;    
 }
